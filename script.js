@@ -9,4 +9,4 @@ function getLevel(element) {
 	return depth;
 }
 const element = document.getElementById('level')
-alert(`The level of the element is : ${getLevel(element)}`)
+alert(`The level of the element is: ${getLevel(element)}`)
