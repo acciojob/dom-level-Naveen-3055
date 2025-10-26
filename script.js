@@ -1,10 +1,10 @@
 function getLevel(element) {
 	if(!element) return -1;
-	let depth =0;
-	const current = element
+	let depth =1;
+	let current = element
 	while(current && current !== document.documentElement){
-		depth++;
-		current = current.parentElement;
+		depth +=1;
+		current = current.parentElement; 
 	}
 	return depth;
 }
